@@ -28,7 +28,7 @@ section {
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/capa.jpg');
+    background-image: url('img/ARTE\ BRASILEIRA\ \(1\).png');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -94,7 +94,41 @@ section {
     /* Garante que o conteúdo fica acima das imagens do background */
 }
 
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario{
 
+background-color: var(--alto-contraste-
+fundo);
+
+color: var(--alto-contraste-texto);
+}
+
+.alto-contraste .nav-link{
+color: var(--alto-contraste-link);
+}
+
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary{
+background-color: var(--alto-contraste-link);
+color: var(--alto-contraste-fundo)
+}
+
+.alto-contraste #tropicalia {
+background: none;
+}
+
+.alto-contraste #galeria {
+
+background-color: var(--alto-contraste-
+fundo);
+
+}
+
+.alto-contraste .fundo-galeria {
+background: none;
+}
 h2 {
     font-family: 'Lemon', serif;
     font-size: 2.5em;
