@@ -102,6 +102,7 @@ background-color: var(--alto-contraste-
 fundo);
 
 color: var(--alto-contraste-texto);
+color: #2c2626;
 }
 
 .alto-contraste .nav-link{
